@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+
+#wrapper{
+	text-align: center;
+}
+
+#errorBox
+{
+	color:red;
+	font-weight: bold;
+}
+
+	#logout {
+		top:20px;
+		float:right;
+		width: 12%;
+	height: 40px;
+	background: #cccccc;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	}
+	#pdf {
+		top:20px;
+		float:right;
+		width: 12%;
+	height: 40px;
+	background: #cccccc;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	}
+
+#button
+{
+	width: 50%;
+	height: 50px;
+	background: #cccccc;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;				/* Brownish gray color*/
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: -10px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+}
+
+#button:hover{
+	opacity: 0.8;
+}
+
+#button:active{
+	opacity: 0.6;
+}
+
+#field
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;	
+	background: rgba(255, 255, 255, .5);
+	opacity: 10%;
+}
+
+#title
+{
+	text-align: center;
+	height: 50px;
+	font-size: 30px;
+}
+
+#keyboard
+{
+	font-size: 30px;
+	text-align: center;
+	height:50px;
+	//clear: both;
+}
+
+p
+{
+	font-family: 'Raleway',sans-serif;
+	color:black;
+	font-size: 30px;
+}
+
+body
+{
+   	background-image: url("chikankari_images/back.png");
+    background-size:cover;
+	background-size : 100% auto
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+			
+form
+{
+	font-family:'Raleway',sans-serif;
+	font-size: 25px;
+	color:#001F3D;
+	font-weight: bold;
+}
